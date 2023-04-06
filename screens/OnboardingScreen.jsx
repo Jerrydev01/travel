@@ -29,11 +29,11 @@ const OnboardingScreen = () => {
             }}
           />
 
-          <View className="absolute z-50 w-full h-full translate-y-[400px]">
+          <View className="absolute z-50 w-full h-full translate-y-[300px]">
             <View className="px-[24px]">
               <TouchableOpacity
                 onPress={() => navigation.navigate("Login")}
-                className="  bg-red-500 rounded-[10px] px-[24px] py-[15px] text-white"
+                className="bg-red-500 rounded-[10px] px-[24px] py-[15px] text-white"
               >
                 <Text className="text-center text-white font-bold text-[16px]">
                   Get Started

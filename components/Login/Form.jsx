@@ -34,14 +34,14 @@ const Form = () => {
   
 
   const handleSubmit = () => {
-    if (!email || !password || !name) {
-      Alert.alert("Error", "All fields are required.");
-      return;
-    }
+    // if (!email || !password || !name) {
+    //   Alert.alert("Error", "All fields are required.");
+    //   return;
+    // }
     // Add your submit logic here
-    console.log("FullName:", name);
-    console.log("Email:", email);
-    console.log("Password:", password);
+    // console.log("FullName:", name);
+    // console.log("Email:", email);
+    // console.log("Password:", password);
 
     // navigate to login
    
